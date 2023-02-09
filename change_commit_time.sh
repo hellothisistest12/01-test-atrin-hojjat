@@ -1,8 +1,8 @@
 #!/bin/sh
 
 git filter-branch --env-filter \
-    'if [ $GIT_COMMIT = $CMT_ID ]
+    'if [ $GIT_COMMIT = 902344e183a03f80316a8e28d0f5d2d89e216c9a ]
      then
-         export GIT_AUTHOR_DATE="Fri Jan 2 21:38:53 2009 -0800"
-         export GIT_COMMITTER_DATE="Sat May 19 01:01:01 2007 -0700"
+         export GIT_AUTHOR_DATE="Sun Feb 5 12:00:00 2023 -0700"
+         export GIT_COMMITTER_DATE="Sun Feb 5 12:00:00 2023 -0700"
      fi'
